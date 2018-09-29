@@ -9,7 +9,7 @@ WHITE='\033[01;37m'
 BOLD='\033[1m'
 UNDERLINE='\033[4m'
 
-coinGithubLink=https://github.com/mrgrow2k/ragna-old
+coinGithubLink=https://github.com/mrgrow2k/ragnarok
 coinPort=1232
 coinRpc=1233
 coinDaemon=ragnarokd
