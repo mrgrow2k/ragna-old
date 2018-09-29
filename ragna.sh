@@ -10,8 +10,8 @@ BOLD='\033[1m'
 UNDERLINE='\033[4m'
 
 coinGithubLink=https://github.com/mrgrow2k/ragna-old
-coinPort=7878
-coinRpc=7879
+coinPort=1232
+coinRpc=1233
 coinDaemon=ragnarokd
 baseCoinCore=.ragnarok
 coinConfigFile=ragnarok.conf
