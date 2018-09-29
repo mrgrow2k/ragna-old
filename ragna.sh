@@ -194,8 +194,8 @@ downloadWallet() {
 
     cd && mkdir new && cd new
 
-    git clone $coinGithubLink kkc > /dev/null 2>&1
-    cd kkc/src > /dev/null 2>&1
+    git clone $coinGithubLink ragnarok > /dev/null 2>&1
+    cd ragnarok/src > /dev/null 2>&1
 
     #build level db
     cd leveldb > /dev/null 2>&1
