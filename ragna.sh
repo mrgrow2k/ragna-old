@@ -265,7 +265,7 @@ configureWallet() {
 
         sleep 5
 
-        echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcport=${rpcArray[c]}\nrpcallowip=127.0.0.1\ndaemon=1\nserver=1\nlisten=1\ntxindex=1\nlistenonion=0\nport=${portArray[c]}\nmasternode=1\nmasternodeaddr=${mnip}:${portArray[c]}\nmasternodeprivkey=${mnkey}\naddnode=ns3.ragnarok.space\naddnode=ns4.ragnarok.space\naddnode=ns5.ragnarok.space\naddnode=ns6.ragnarok.space\naddnode=ns7.ragnarok.space\naddnode=ns8.ragnarok.space\naddnode=ns9.ragnarok.space\naddnode=ns10.ragnarok.space\naddnode=108.61.170.154" > ~/${coreArray[c]}/$coinConfigFile
+        echo -e "rpcuser=${rpcuser}\nrpcpassword=${rpcpass}\nrpcport=${rpcArray[c]}\nrpcallowip=127.0.0.1\ndaemon=1\nserver=1\nlisten=1\ntxindex=1\nlistenonion=0\nport=${portArray[c]}\nmasternode=1\nmasternodeaddr=${mnip}:${portArray[c]}\nmasternodeprivkey=${mnkey}\naddnode=ns3.ragnarok.space\naddnode=ns4.ragnarok.space\naddnode=ns5.ragnarok.space\naddnode=ns6.ragnarok.space\naddnode=ns7.ragnarok.space\naddnode=ns8.ragnarok.space\naddnode=ns9.ragnarok.space\naddnode=ns10.ragnarok.space\naddnode=95.179.169.13" > ~/${coreArray[c]}/$coinConfigFile
         
 
     done
